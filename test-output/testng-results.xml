@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-24T16:28:15 IST" name="DAP Automation Suite" finished-at="2026-04-24T16:29:59 IST" duration-ms="103671">
+    <groups>
+    </groups>
+    <test started-at="2026-04-24T16:28:15 IST" name="Login Page Test" finished-at="2026-04-24T16:29:59 IST" duration-ms="103671">
+      <class name="com.dap.qa.testcase.CaseCreationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.dap.qa.testcase.CaseCreationTest@607fbe09]" started-at="2026-04-24T16:28:16 IST" name="setUp" finished-at="2026-04-24T16:28:25 IST" duration-ms="8822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="casestest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.dap.qa.testcase.CaseCreationTest@607fbe09]" started-at="2026-04-24T16:28:25 IST" name="casestest" data-provider="CaseData" finished-at="2026-04-24T16:29:02 IST" duration-ms="36556" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HDFC Cloud Migration - Track 2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Track 2.3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CUSTOMERNEXT]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HDFC Bank Limited]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sumit Patil]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Configuration Bug]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casestest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.dap.qa.testcase.CaseCreationTest@607fbe09]" started-at="2026-04-24T16:29:02 IST" name="teardown" finished-at="2026-04-24T16:29:03 IST" duration-ms="484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.dap.qa.testcase.CaseCreationTest@607fbe09]" started-at="2026-04-24T16:29:03 IST" name="updateResult" finished-at="2026-04-24T16:29:03 IST" duration-ms="35" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=casestest status=SUCCESS method=CaseCreationTest.casestest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.dap.qa.testcase.CaseCreationTest@607fbe09] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResult -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.dap.qa.testcase.CaseCreationTest@607fbe09]" started-at="2026-04-24T16:29:03 IST" name="setUp" finished-at="2026-04-24T16:29:05 IST" duration-ms="2239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="casestest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.dap.qa.testcase.CaseCreationTest@607fbe09]" started-at="2026-04-24T16:29:05 IST" name="casestest" data-provider="CaseData" finished-at="2026-04-24T16:29:28 IST" duration-ms="23073" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HDFC Cloud Migration - Track 2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Track 2.3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[dfgbndfgbfd]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HDFC Bank Limited]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sumit Patil]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Configuration Bug]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Fail]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with text: dfgbndfgbfd
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with text: dfgbndfgbfd
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:400)
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:128)
+at com.dap.qa.utils.ActionUtilities.dropdownselect(ActionUtilities.java:61)
+at com.dap.qa.page.CasesPage.casespage(CasesPage.java:172)
+at com.dap.qa.testcase.CaseCreationTest.casestest(CaseCreationTest.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casestest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.dap.qa.testcase.CaseCreationTest@607fbe09]" started-at="2026-04-24T16:29:58 IST" name="teardown" finished-at="2026-04-24T16:29:59 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.dap.qa.testcase.CaseCreationTest@607fbe09]" started-at="2026-04-24T16:29:59 IST" name="updateResult" finished-at="2026-04-24T16:29:59 IST" duration-ms="40" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=casestest status=FAILURE method=CaseCreationTest.casestest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.dap.qa.testcase.CaseCreationTest@607fbe09] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResult -->
+      </class> <!-- com.dap.qa.testcase.CaseCreationTest -->
+    </test> <!-- Login Page Test -->
+  </suite> <!-- DAP Automation Suite -->
+</testng-results>

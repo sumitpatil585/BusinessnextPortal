@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="DAP Automation Suite">
+    
+<listeners>
+	<listener class-name="com.dap.qa.listeners.ListenersClass"/>
+</listeners>
+<test name="Login Page Test">
+        <classes>
+            <class name="com.dap.qa.testcase.CaseCreationTest"/>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,12 @@
+[INFO ] 2026-02-02 14:43:22.197 [main] LoginPage - Entering username
+[INFO ] 2026-02-02 14:43:22.879 [main] LoginPage - UserName has been entered successfully
+[INFO ] 2026-02-02 14:43:22.879 [main] LoginPage - Entering password
+[INFO ] 2026-02-02 14:43:23.017 [main] LoginPage - Password has been entered successfully
+[INFO ] 2026-02-02 14:43:23.018 [main] LoginPage - Clicking login button
+[INFO ] 2026-02-02 14:43:24.402 [main] LoginPage - Login Successfull
+[INFO ] 2026-02-02 14:43:28.961 [main] LoginPage - Entering username
+[INFO ] 2026-02-02 14:43:29.121 [main] LoginPage - UserName has been entered successfully
+[INFO ] 2026-02-02 14:43:29.121 [main] LoginPage - Entering password
+[INFO ] 2026-02-02 14:43:29.256 [main] LoginPage - Password has been entered successfully
+[INFO ] 2026-02-02 14:43:29.256 [main] LoginPage - Clicking login button
+[INFO ] 2026-02-02 14:43:30.173 [main] LoginPage - Login Successfull

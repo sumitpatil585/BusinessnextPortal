@@ -1,0 +1,102 @@
+[DEBUG] 2026-04-24 16:28:15.958 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-24 16:28:15.963 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-24 16:28:16.659 [main] BaseTest - ========== Test Started ==========
+[INFO ] 2026-04-24 16:28:16.659 [main] BaseTest - Launching browser
+[INFO ] 2026-04-24 16:28:19.266 [main] BaseTest - Microsoft Edge browser Launched Successfully
+[INFO ] 2026-04-24 16:28:25.577 [main] CasesPage - Entering username
+[INFO ] 2026-04-24 16:28:25.699 [main] CasesPage - UserName has been entered successfully
+[INFO ] 2026-04-24 16:28:25.700 [main] CasesPage - Entering password
+[INFO ] 2026-04-24 16:28:25.842 [main] CasesPage - Password has been entered successfully
+[INFO ] 2026-04-24 16:28:25.842 [main] CasesPage - Clicking login button
+[INFO ] 2026-04-24 16:28:26.601 [main] CasesPage - Login Successfull
+[INFO ] 2026-04-24 16:28:41.656 [main] CasesPage - Mousehover successfully on New
+[INFO ] 2026-04-24 16:28:42.883 [main] CasesPage - Successfully clicked on incident
+[INFO ] 2026-04-24 16:28:43.427 [main] CasesPage - Successfully clicked on Project Name Button
+[INFO ] 2026-04-24 16:28:44.023 [main] CasesPage - Successfully clicked on Project Name searchtext field
+[INFO ] 2026-04-24 16:28:44.276 [main] CasesPage - Successfully Entered Project Name searchtext field
+[INFO ] 2026-04-24 16:28:44.442 [main] CasesPage - Successfully clicked on Project Name Search Button
+[INFO ] 2026-04-24 16:28:45.225 [main] CasesPage - Successfully clicked on Searched Project Name
+[INFO ] 2026-04-24 16:28:45.412 [main] CasesPage - Successfully clicked on Project Module Search Button
+[INFO ] 2026-04-24 16:28:46.248 [main] CasesPage - Project Module Name successfully entered in field
+[INFO ] 2026-04-24 16:28:46.378 [main] CasesPage - Successfully clicked on Search Button
+[INFO ] 2026-04-24 16:28:47.162 [main] CasesPage - Successfully clicked on Searched Project Module Name
+[INFO ] 2026-04-24 16:28:47.600 [main] CasesPage - ProductTypeCase dropdown value selected
+[INFO ] 2026-04-24 16:28:47.783 [main] CasesPage - Clicked on Account Name Search Button
+[INFO ] 2026-04-24 16:28:48.608 [main] CasesPage - CClicked on Account Name Text Field
+[INFO ] 2026-04-24 16:28:48.781 [main] CasesPage - Account Name entered in Account Name Text Field 
+[INFO ] 2026-04-24 16:28:48.925 [main] CasesPage - Clicked on search button 
+[INFO ] 2026-04-24 16:28:49.783 [main] CasesPage - Clicked on searched account name
+[INFO ] 2026-04-24 16:28:49.811 [main] CasesPage - Scroll down till assigned to button
+[INFO ] 2026-04-24 16:28:49.995 [main] CasesPage - Clicked on assigned to button
+[INFO ] 2026-04-24 16:28:50.726 [main] CasesPage - Assigned To value in entered assigned to text field
+[INFO ] 2026-04-24 16:28:50.856 [main] CasesPage - Clicked on search button 
+[INFO ] 2026-04-24 16:28:51.656 [main] CasesPage - Clicked on searched assigned to
+[INFO ] 2026-04-24 16:29:02.014 [main] CaseCreationTest - casestest passed successfully
+[DEBUG] 2026-04-24 16:29:02.085 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-24 16:29:02.094 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-04-24 16:29:02.285 [main] ZipPackage - Save content types part
+[DEBUG] 2026-04-24 16:29:02.556 [main] ZipPackage - Save package relationships
+[DEBUG] 2026-04-24 16:29:02.568 [main] ZipPackage - Save part 'docProps/app.xml'
+[DEBUG] 2026-04-24 16:29:02.568 [main] ZipPackage - Save part 'docProps/core.xml'
+[DEBUG] 2026-04-24 16:29:02.577 [main] ZipPackage - Save part 'xl/sharedStrings.xml'
+[DEBUG] 2026-04-24 16:29:02.577 [main] ZipPackage - Save part 'xl/styles.xml'
+[DEBUG] 2026-04-24 16:29:02.577 [main] ZipPackage - Save part 'xl/theme/theme1.xml'
+[DEBUG] 2026-04-24 16:29:02.577 [main] ZipPackage - Save part 'xl/workbook.xml'
+[DEBUG] 2026-04-24 16:29:02.577 [main] ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+[INFO ] 2026-04-24 16:29:02.584 [main] BaseTest - Closing browser
+[INFO ] 2026-04-24 16:29:03.068 [main] BaseTest - browser Closed Successfully
+[DEBUG] 2026-04-24 16:29:03.075 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-24 16:29:03.076 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-04-24 16:29:03.097 [main] ZipPackage - Save content types part
+[DEBUG] 2026-04-24 16:29:03.098 [main] ZipPackage - Save package relationships
+[DEBUG] 2026-04-24 16:29:03.099 [main] ZipPackage - Save part 'docProps/app.xml'
+[DEBUG] 2026-04-24 16:29:03.100 [main] ZipPackage - Save part 'docProps/core.xml'
+[DEBUG] 2026-04-24 16:29:03.101 [main] ZipPackage - Save part 'xl/sharedStrings.xml'
+[DEBUG] 2026-04-24 16:29:03.101 [main] ZipPackage - Save part 'xl/styles.xml'
+[DEBUG] 2026-04-24 16:29:03.101 [main] ZipPackage - Save part 'xl/theme/theme1.xml'
+[DEBUG] 2026-04-24 16:29:03.102 [main] ZipPackage - Save part 'xl/workbook.xml'
+[DEBUG] 2026-04-24 16:29:03.103 [main] ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+[INFO ] 2026-04-24 16:29:03.105 [main] BaseTest - ========== Test Started ==========
+[INFO ] 2026-04-24 16:29:03.105 [main] BaseTest - Launching browser
+[INFO ] 2026-04-24 16:29:05.002 [main] BaseTest - Microsoft Edge browser Launched Successfully
+[INFO ] 2026-04-24 16:29:05.350 [main] CasesPage - Entering username
+[INFO ] 2026-04-24 16:29:06.242 [main] CasesPage - UserName has been entered successfully
+[INFO ] 2026-04-24 16:29:06.242 [main] CasesPage - Entering password
+[INFO ] 2026-04-24 16:29:06.398 [main] CasesPage - Password has been entered successfully
+[INFO ] 2026-04-24 16:29:06.398 [main] CasesPage - Clicking login button
+[INFO ] 2026-04-24 16:29:08.030 [main] CasesPage - Login Successfull
+[INFO ] 2026-04-24 16:29:23.455 [main] CasesPage - Mousehover successfully on New
+[INFO ] 2026-04-24 16:29:24.414 [main] CasesPage - Successfully clicked on incident
+[INFO ] 2026-04-24 16:29:24.941 [main] CasesPage - Successfully clicked on Project Name Button
+[INFO ] 2026-04-24 16:29:25.296 [main] CasesPage - Successfully clicked on Project Name searchtext field
+[INFO ] 2026-04-24 16:29:25.463 [main] CasesPage - Successfully Entered Project Name searchtext field
+[INFO ] 2026-04-24 16:29:25.578 [main] CasesPage - Successfully clicked on Project Name Search Button
+[INFO ] 2026-04-24 16:29:26.348 [main] CasesPage - Successfully clicked on Searched Project Name
+[INFO ] 2026-04-24 16:29:26.554 [main] CasesPage - Successfully clicked on Project Module Search Button
+[INFO ] 2026-04-24 16:29:27.265 [main] CasesPage - Project Module Name successfully entered in field
+[INFO ] 2026-04-24 16:29:27.411 [main] CasesPage - Successfully clicked on Search Button
+[INFO ] 2026-04-24 16:29:28.129 [main] CasesPage - Successfully clicked on Searched Project Module Name
+[DEBUG] 2026-04-24 16:29:58.613 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-24 16:29:58.613 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-04-24 16:29:58.669 [main] ZipPackage - Save content types part
+[DEBUG] 2026-04-24 16:29:58.671 [main] ZipPackage - Save package relationships
+[DEBUG] 2026-04-24 16:29:58.671 [main] ZipPackage - Save part 'docProps/app.xml'
+[DEBUG] 2026-04-24 16:29:58.671 [main] ZipPackage - Save part 'docProps/core.xml'
+[DEBUG] 2026-04-24 16:29:58.671 [main] ZipPackage - Save part 'xl/sharedStrings.xml'
+[DEBUG] 2026-04-24 16:29:58.671 [main] ZipPackage - Save part 'xl/styles.xml'
+[DEBUG] 2026-04-24 16:29:58.676 [main] ZipPackage - Save part 'xl/theme/theme1.xml'
+[DEBUG] 2026-04-24 16:29:58.676 [main] ZipPackage - Save part 'xl/workbook.xml'
+[DEBUG] 2026-04-24 16:29:58.679 [main] ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+[INFO ] 2026-04-24 16:29:58.687 [main] BaseTest - Closing browser
+[INFO ] 2026-04-24 16:29:59.068 [main] BaseTest - browser Closed Successfully
+[DEBUG] 2026-04-24 16:29:59.077 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-24 16:29:59.078 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-04-24 16:29:59.100 [main] ZipPackage - Save content types part
+[DEBUG] 2026-04-24 16:29:59.101 [main] ZipPackage - Save package relationships
+[DEBUG] 2026-04-24 16:29:59.103 [main] ZipPackage - Save part 'docProps/app.xml'
+[DEBUG] 2026-04-24 16:29:59.103 [main] ZipPackage - Save part 'docProps/core.xml'
+[DEBUG] 2026-04-24 16:29:59.105 [main] ZipPackage - Save part 'xl/sharedStrings.xml'
+[DEBUG] 2026-04-24 16:29:59.105 [main] ZipPackage - Save part 'xl/styles.xml'
+[DEBUG] 2026-04-24 16:29:59.106 [main] ZipPackage - Save part 'xl/theme/theme1.xml'
+[DEBUG] 2026-04-24 16:29:59.106 [main] ZipPackage - Save part 'xl/workbook.xml'
+[DEBUG] 2026-04-24 16:29:59.108 [main] ZipPackage - Save part 'xl/worksheets/sheet1.xml'

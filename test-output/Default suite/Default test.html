@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Apr 24 15:42:22 IST 2026</td>
+<td>Started on:</td><td>Mon May 04 16:36:23 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>1 seconds (1059 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (85 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,15 +77,14 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.dap.qa.testcase.CaseCreationTest.casestest()'><b>casestest</b><br>Test class: com.dap.qa.testcase.CaseCreationTest</td>
-<td><div><pre>org.testng.internal.reflect.MethodMatcherException: 
-[public void com.dap.qa.testcase.CaseCreationTest.casestest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
-Data provider mismatch
-Method: casestest([java.lang.String arg0, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3, java.lang.String arg4, java.lang.String arg5, java.lang.String arg6])
-Arguments: [(java.lang.String) TC_01,(java.lang.String) HDFC Cloud Migration - Track 2,(java.lang.String) Track 2.3,(java.lang.String) CUSTOMERNEXT,(java.lang.String) HDFC Bank Limited,(java.lang.String) Sumit Patil,(java.lang.String) Configuration Bug,(java.lang.String) ]
-	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:46)
-	at org.testng.internal.Parameters.injectParameters(Parameters.java:915)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+<td><div><pre>java.lang.RuntimeException: java.lang.ExceptionInInitializerError
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:58)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:159)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:959)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -105,16 +104,35 @@ Arguments: [(java.lang.String) TC_01,(java.lang.String) HDFC Cloud Migration - T
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace666911607", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace666911607'><pre>org.testng.internal.reflect.MethodMatcherException: 
-[public void com.dap.qa.testcase.CaseCreationTest.casestest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
-Data provider mismatch
-Method: casestest([java.lang.String arg0, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3, java.lang.String arg4, java.lang.String arg5, java.lang.String arg6])
-Arguments: [(java.lang.String) TC_01,(java.lang.String) HDFC Cloud Migration - Track 2,(java.lang.String) Track 2.3,(java.lang.String) CUSTOMERNEXT,(java.lang.String) HDFC Bank Limited,(java.lang.String) Sumit Patil,(java.lang.String) Configuration Bug,(java.lang.String) ]
-	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:46)
-	at org.testng.internal.Parameters.injectParameters(Parameters.java:915)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+Caused by: java.lang.ExceptionInInitializerError
+	at com.dap.qa.utils.ExcelUtils.getexceldata(ExcelUtils.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:54)
+	... 25 more
+Caused by: java.lang.RuntimeException: Failed to load config.properties file
+	at com.dap.qa.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:23)
+	... 33 more
+Caused by: java.io.FileNotFoundException: D:\Selenium Course\MySeleniumSessions\FrameWorkPractice27012026\selenium-framework\src\test\resources\Properties_File\config.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at com.dap.qa.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:17)
+	... 33 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace1076202543", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1076202543'><pre>java.lang.RuntimeException: java.lang.ExceptionInInitializerError
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:58)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:159)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:959)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -134,9 +152,29 @@ Arguments: [(java.lang.String) TC_01,(java.lang.String) HDFC Cloud Migration - T
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.ExceptionInInitializerError
+	at com.dap.qa.utils.ExcelUtils.getexceldata(ExcelUtils.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:54)
+	... 25 more
+Caused by: java.lang.RuntimeException: Failed to load config.properties file
+	at com.dap.qa.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:23)
+	... 33 more
+Caused by: java.io.FileNotFoundException: D:\Selenium Course\MySeleniumSessions\FrameWorkPractice27012026\selenium-framework\src\test\resources\Properties_File\config.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at com.dap.qa.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:17)
+	... 33 more
 </pre></div></td>
-<td>1</td>
-<td>com.dap.qa.testcase.CaseCreationTest@29df4d43</td></tr>
+<td>0</td>
+<td>com.dap.qa.testcase.CaseCreationTest@7fc6de5b</td></tr>
 </table><p>
 </body>
 </html>

@@ -11,7 +11,7 @@
           <include name="setUp"/>
           <include name="teardown"/>
           <include name="updateResult"/>
-          <include name="casestest" invocation-numbers="1"/>
+          <include name="casestest" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- com.dap.qa.testcase.CaseCreationTest -->
     </classes>

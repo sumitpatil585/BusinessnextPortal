@@ -1,0 +1,14 @@
+[INFO ] 2026-02-02 15:39:57.713 [main] LoginPage - Entering username
+[INFO ] 2026-02-02 15:39:57.859 [main] LoginPage - UserName has been entered successfully
+[INFO ] 2026-02-02 15:39:57.859 [main] LoginPage - Entering password
+[INFO ] 2026-02-02 15:39:58.023 [main] LoginPage - Password has been entered successfully
+[INFO ] 2026-02-02 15:39:58.023 [main] LoginPage - Clicking login button
+[INFO ] 2026-02-02 15:39:59.004 [main] LoginPage - Login Successfull
+[INFO ] 2026-02-02 15:40:04.050 [main] CaseCreation - Login test passed successfully
+[INFO ] 2026-02-02 15:40:07.999 [main] LoginPage - Entering username
+[INFO ] 2026-02-02 15:40:08.135 [main] LoginPage - UserName has been entered successfully
+[INFO ] 2026-02-02 15:40:08.135 [main] LoginPage - Entering password
+[INFO ] 2026-02-02 15:40:08.250 [main] LoginPage - Password has been entered successfully
+[INFO ] 2026-02-02 15:40:08.250 [main] LoginPage - Clicking login button
+[INFO ] 2026-02-02 15:40:09.203 [main] LoginPage - Login Successfull
+[INFO ] 2026-02-02 15:40:15.395 [main] CaseCreation - summarypagetest passed successfully

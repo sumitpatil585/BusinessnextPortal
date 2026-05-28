@@ -1,0 +1,89 @@
+[DEBUG] 2026-05-24 23:58:32.054 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-05-24 23:58:32.064 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-05-24 23:58:33.283 [main] BaseTest - ========== Test Started ==========
+[INFO ] 2026-05-24 23:58:33.284 [main] BaseTest - Launching browser
+[INFO ] 2026-05-24 23:58:38.239 [main] BaseTest - Microsoft Edge browser Launched Successfully
+[INFO ] 2026-05-24 23:58:39.983 [main] CasesPage - Entering username
+[INFO ] 2026-05-24 23:58:40.204 [main] CasesPage - UserName has been entered successfully
+[INFO ] 2026-05-24 23:58:40.204 [main] CasesPage - Entering password
+[INFO ] 2026-05-24 23:58:40.494 [main] CasesPage - Password has been entered successfully
+[INFO ] 2026-05-24 23:58:40.498 [main] CasesPage - Clicking login button
+[INFO ] 2026-05-24 23:58:42.240 [main] CasesPage - Login Successfull
+[INFO ] 2026-05-24 23:58:58.795 [main] CasesPage - Mousehover successfully on New
+[INFO ] 2026-05-24 23:59:00.340 [main] CasesPage - Successfully clicked on incident
+[INFO ] 2026-05-24 23:59:00.877 [main] CasesPage - Successfully clicked on Project Name Button
+[INFO ] 2026-05-24 23:59:01.351 [main] CasesPage - Successfully clicked on Project Name searchtext field
+[INFO ] 2026-05-24 23:59:01.601 [main] CasesPage - Successfully Entered Project Name searchtext field
+[INFO ] 2026-05-24 23:59:01.804 [main] CasesPage - Successfully clicked on Project Name Search Button
+[INFO ] 2026-05-24 23:59:02.791 [main] CasesPage - Successfully clicked on Searched Project Name
+[INFO ] 2026-05-24 23:59:03.080 [main] CasesPage - Successfully clicked on Project Module Search Button
+[INFO ] 2026-05-24 23:59:03.466 [main] CasesPage - Project Module Name successfully entered in field
+[INFO ] 2026-05-24 23:59:03.692 [main] CasesPage - Successfully clicked on Search Button
+[INFO ] 2026-05-24 23:59:04.055 [main] CasesPage - Successfully clicked on Searched Project Module Name
+[INFO ] 2026-05-24 23:59:04.730 [main] CasesPage - ProductTypeCase dropdown value selected
+[INFO ] 2026-05-24 23:59:05.027 [main] CasesPage - Clicked on Account Name Search Button
+[INFO ] 2026-05-24 23:59:05.926 [main] CasesPage - CClicked on Account Name Text Field
+[INFO ] 2026-05-24 23:59:06.106 [main] CasesPage - Account Name entered in Account Name Text Field 
+[INFO ] 2026-05-24 23:59:06.365 [main] CasesPage - Clicked on search button 
+[INFO ] 2026-05-24 23:59:07.343 [main] CasesPage - Clicked on searched account name
+[INFO ] 2026-05-24 23:59:07.405 [main] CasesPage - Scroll down till assigned to button
+[INFO ] 2026-05-24 23:59:07.704 [main] CasesPage - Clicked on assigned to button
+[INFO ] 2026-05-24 23:59:08.548 [main] CasesPage - Assigned To value in entered assigned to text field
+[INFO ] 2026-05-24 23:59:08.756 [main] CasesPage - Clicked on search button 
+[INFO ] 2026-05-24 23:59:09.697 [main] CasesPage - Clicked on searched assigned to
+[INFO ] 2026-05-24 23:59:20.939 [main] CaseCreationTest - casestest passed successfully
+[DEBUG] 2026-05-24 23:59:21.013 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-05-24 23:59:21.016 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-05-24 23:59:21.285 [main] ZipPackage - Save content types part
+[DEBUG] 2026-05-24 23:59:21.489 [main] ZipPackage - Save package relationships
+[DEBUG] 2026-05-24 23:59:21.503 [main] ZipPackage - Save part 'docProps/app.xml'
+[DEBUG] 2026-05-24 23:59:21.503 [main] ZipPackage - Save part 'docProps/core.xml'
+[DEBUG] 2026-05-24 23:59:21.515 [main] ZipPackage - Save part 'xl/sharedStrings.xml'
+[DEBUG] 2026-05-24 23:59:21.515 [main] ZipPackage - Save part 'xl/styles.xml'
+[DEBUG] 2026-05-24 23:59:21.515 [main] ZipPackage - Save part 'xl/theme/theme1.xml'
+[DEBUG] 2026-05-24 23:59:21.521 [main] ZipPackage - Save part 'xl/workbook.xml'
+[DEBUG] 2026-05-24 23:59:21.525 [main] ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+[INFO ] 2026-05-24 23:59:21.538 [main] BaseTest - Closing browser
+[INFO ] 2026-05-24 23:59:22.003 [main] BaseTest - browser Closed Successfully
+[DEBUG] 2026-05-24 23:59:22.017 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-05-24 23:59:22.019 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-05-24 23:59:22.080 [main] ZipPackage - Save content types part
+[DEBUG] 2026-05-24 23:59:22.082 [main] ZipPackage - Save package relationships
+[DEBUG] 2026-05-24 23:59:22.085 [main] ZipPackage - Save part 'docProps/app.xml'
+[DEBUG] 2026-05-24 23:59:22.086 [main] ZipPackage - Save part 'docProps/core.xml'
+[DEBUG] 2026-05-24 23:59:22.089 [main] ZipPackage - Save part 'xl/sharedStrings.xml'
+[DEBUG] 2026-05-24 23:59:22.089 [main] ZipPackage - Save part 'xl/styles.xml'
+[DEBUG] 2026-05-24 23:59:22.090 [main] ZipPackage - Save part 'xl/theme/theme1.xml'
+[DEBUG] 2026-05-24 23:59:22.092 [main] ZipPackage - Save part 'xl/workbook.xml'
+[DEBUG] 2026-05-24 23:59:22.096 [main] ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+[INFO ] 2026-05-24 23:59:22.099 [main] BaseTest - ========== Test Started ==========
+[INFO ] 2026-05-24 23:59:22.100 [main] BaseTest - Launching browser
+[INFO ] 2026-05-24 23:59:24.482 [main] BaseTest - Microsoft Edge browser Launched Successfully
+[INFO ] 2026-05-24 23:59:25.529 [main] CasesPage - Entering username
+[INFO ] 2026-05-24 23:59:25.844 [main] CasesPage - UserName has been entered successfully
+[INFO ] 2026-05-24 23:59:25.846 [main] CasesPage - Entering password
+[INFO ] 2026-05-24 23:59:26.159 [main] CasesPage - Password has been entered successfully
+[INFO ] 2026-05-24 23:59:26.159 [main] CasesPage - Clicking login button
+[INFO ] 2026-05-24 23:59:27.014 [main] CasesPage - Login Successfull
+[INFO ] 2026-05-24 23:59:43.760 [main] CasesPage - Mousehover successfully on New
+[INFO ] 2026-05-24 23:59:45.155 [main] CasesPage - Successfully clicked on incident
+[INFO ] 2026-05-24 23:59:45.741 [main] CasesPage - Successfully clicked on Project Name Button
+[INFO ] 2026-05-24 23:59:46.218 [main] CasesPage - Successfully clicked on Project Name searchtext field
+[INFO ] 2026-05-24 23:59:46.470 [main] CasesPage - Successfully Entered Project Name searchtext field
+[INFO ] 2026-05-24 23:59:46.681 [main] CasesPage - Successfully clicked on Project Name Search Button
+[INFO ] 2026-05-24 23:59:47.638 [main] CasesPage - Successfully clicked on Searched Project Name
+[INFO ] 2026-05-24 23:59:47.910 [main] CasesPage - Successfully clicked on Project Module Search Button
+[INFO ] 2026-05-24 23:59:48.335 [main] CasesPage - Project Module Name successfully entered in field
+[INFO ] 2026-05-24 23:59:48.527 [main] CasesPage - Successfully clicked on Search Button
+[INFO ] 2026-05-24 23:59:49.389 [main] CasesPage - Successfully clicked on Searched Project Module Name
+[INFO ] 2026-05-24 23:59:50.003 [main] CasesPage - ProductTypeCase dropdown value selected
+[INFO ] 2026-05-24 23:59:50.272 [main] CasesPage - Clicked on Account Name Search Button
+[INFO ] 2026-05-24 23:59:51.073 [main] CasesPage - CClicked on Account Name Text Field
+[INFO ] 2026-05-24 23:59:51.236 [main] CasesPage - Account Name entered in Account Name Text Field 
+[INFO ] 2026-05-24 23:59:51.478 [main] CasesPage - Clicked on search button 
+[INFO ] 2026-05-24 23:59:52.455 [main] CasesPage - Clicked on searched account name
+[INFO ] 2026-05-24 23:59:52.503 [main] CasesPage - Scroll down till assigned to button
+[INFO ] 2026-05-24 23:59:52.753 [main] CasesPage - Clicked on assigned to button
+[INFO ] 2026-05-24 23:59:53.640 [main] CasesPage - Assigned To value in entered assigned to text field
+[INFO ] 2026-05-24 23:59:53.832 [main] CasesPage - Clicked on search button 
+[INFO ] 2026-05-24 23:59:54.791 [main] CasesPage - Clicked on searched assigned to

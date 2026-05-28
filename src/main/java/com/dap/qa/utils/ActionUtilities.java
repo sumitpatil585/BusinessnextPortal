@@ -1,8 +1,10 @@
 package com.dap.qa.utils;
 import java.time.Duration;
+import java.util.NoSuchElementException;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -56,9 +58,37 @@ public class ActionUtilities extends BaseTest
     {
     	actions.moveToElement(element).click().build().perform();
     }
+
+	/*
+	 * public void dropdownselect(WebElement element, String value) {
+	 * 
+	 * Select select = new Select(element); select.selectByVisibleText(value); }
+	 */
+    
     public void dropdownselect(WebElement element, String value) {
-        Select select = new Select(element);
-        select.selectByVisibleText(value);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
+        try {
+            // Wait until element is clickable
+            wait.until(ExpectedConditions.elementToBeClickable(element));
+
+            Select select = new Select(element);
+            select.selectByVisibleText(value);
+
+        } catch (StaleElementReferenceException e) {
+            // Retry once if DOM refreshed
+            WebElement refreshedElement = wait.until(
+                ExpectedConditions.refreshed(
+                    ExpectedConditions.elementToBeClickable(element)
+                )
+            );
+
+            Select select = new Select(refreshedElement);
+            select.selectByVisibleText(value);
+
+        } catch (NoSuchElementException e) {
+            throw new RuntimeException("Dropdown value not found: " + value);
+        }
     }
     public void scrolldown(WebElement assigned_to_button) 
     {

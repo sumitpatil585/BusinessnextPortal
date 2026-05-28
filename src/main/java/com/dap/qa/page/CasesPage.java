@@ -1,8 +1,10 @@
 package com.dap.qa.page;
+import java.awt.RenderingHints.Key;
 import java.time.Duration;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -68,7 +70,7 @@ public class CasesPage extends BaseTest
     @FindBy(xpath = "//select[@data-autoid='cust_235_ctrl']")
     WebElement CaseAnalysis;
     @FindBy(xpath = "//select[@data-autoid='cust_236_ctrl']")
-    WebElement Applies_To ;
+    WebElement Applies_To;
     @FindBy(xpath = "//select[@data-autoid='CASE_STATUSCODE_ctrl']")
     WebElement Status_Code;
     @FindBy(xpath = "//input[@data-autoid='cust_23_ctrl']")
@@ -118,7 +120,7 @@ public class CasesPage extends BaseTest
     }
     
 
-	public void casespage(String ProjectName, String projectmodule, String ProductTypeCaseValue, String Account_Name, String Assigned_To, String CaseAnalysisValue) throws InterruptedException
+	public void casespage(String ProjectName, String projectmodule, String ProductTypeCaseValue, String Account_Name, String Assigned_To, String CaseAnalysisValue, String Applies_To_value) throws InterruptedException
 	{
 		actionUtil.mouseHover(New);
 		ExtentTestManager.getTest().info("Mousehover successfully on New");
@@ -205,8 +207,14 @@ public class CasesPage extends BaseTest
 		wait.until(ExpectedConditions.elementToBeClickable(searched_assigned_to)).click();
 		ExtentTestManager.getTest().info("Clicked on searched assigned to");
 		logger.info("Clicked on searched assigned to");
+		System.out.println();
 		actionUtil.dropdownselect(CaseAnalysis, CaseAnalysisValue);
-		
+		//wait.until(ExpectedConditions.elementToBeClickable(Applies_To));
+		//CaseAnalysis.sendKeys(Keys.TAB);
+		//wait.until(ExpectedConditions.visibilityOf(Applies_To));
+		//Thread.sleep(10000); 
+		System.out.println(Applies_To_value + "     " + Applies_To_value );
+		actionUtil.dropdownselect(Applies_To, Applies_To_value);
 		
 		
 	}

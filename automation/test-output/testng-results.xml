@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-25T17:51:27 IST" name="DAP Automation Suite" finished-at="2026-05-25T17:52:38 IST" duration-ms="70712">
+    <groups>
+    </groups>
+    <test started-at="2026-05-25T17:51:27 IST" name="Login Page Test" finished-at="2026-05-25T17:52:38 IST" duration-ms="70712">
+      <class name="com.dap.qa.testcase.CaseCreationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.dap.qa.testcase.CaseCreationTest@4b40f651]" started-at="2026-05-25T17:51:29 IST" name="setUp" finished-at="2026-05-25T17:51:33 IST" duration-ms="3807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="casestest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.dap.qa.testcase.CaseCreationTest@4b40f651]" started-at="2026-05-25T17:51:33 IST" name="casestest" data-provider="CaseData" finished-at="2026-05-25T17:51:58 IST" duration-ms="25667" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HDFC Cloud Migration - Track 2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Track 2.3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CUSTOMERNEXT]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HDFC Bank Limited]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sumit Patil]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Configuration Bug]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Public IP2]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Fail]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.json.JsonException">
+            <message>
+              <![CDATA[java.lang.reflect.InvocationTargetException
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.19'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [79cce6f4bedab89fab51f0f9c0e37f41, actions {actions=[org.openqa.selenium.interactions.Sequence@7af3874e]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.83, fedcm:accounts: true, goog:processID: 127588, ms:edgeOptions: {debuggerAddress: localhost:60841}, msedge: {msedgedriverVersion: 148.0.3967.83 (2db6d3cb8b2d..., userDataDir: C:\Users\SUMITP~2\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60841/devtoo..., se:cdpVersion: 148.0.3967.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 79cce6f4bedab89fab51f0f9c0e37f41]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.19'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [79cce6f4bedab89fab51f0f9c0e37f41, actions {actions=[org.openqa.selenium.interactions.Sequence@7af3874e]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.83, fedcm:accounts: true, goog:processID: 127588, ms:edgeOptions: {debuggerAddress: localhost:60841}, msedge: {msedgedriverVersion: 148.0.3967.83 (2db6d3cb8b2d..., userDataDir: C:\Users\SUMITP~2\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60841/devtoo..., se:cdpVersion: 148.0.3967.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 79cce6f4bedab89fab51f0f9c0e37f41
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:521)
+at org.openqa.selenium.json.JsonOutput.lambda$new$15(JsonOutput.java:179)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:410)
+at org.openqa.selenium.json.JsonOutput.lambda$new$21(JsonOutput.java:201)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:201)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:410)
+at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:219)
+at java.base/java.util.Map.forEach(Map.java:713)
+at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:214)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:410)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:397)
+at org.openqa.selenium.json.Json.toJson(Json.java:133)
+at org.openqa.selenium.json.Json.toJson(Json.java:119)
+at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:241)
+at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:112)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:211)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:691)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:616)
+at com.dap.qa.utils.ActionUtilities.mouseclick(ActionUtilities.java:58)
+at com.dap.qa.page.CasesPage.casespage(CasesPage.java:136)
+at com.dap.qa.testcase.CaseCreationTest.casestest(CaseCreationTest.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.19'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:432)
+at org.openqa.selenium.json.Json.toJson(Json.java:131)
+... 40 more
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:517)
+... 61 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='Grid_SearchTextBox']"}
+  (Session info: MicrosoftEdge=148.0.3967.83)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.19'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [79cce6f4bedab89fab51f0f9c0e37f41, findElement {using=xpath, value=//input[@name='Grid_SearchTextBox']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.83, fedcm:accounts: true, goog:processID: 127588, ms:edgeOptions: {debuggerAddress: localhost:60841}, msedge: {msedgedriverVersion: 148.0.3967.83 (2db6d3cb8b2d..., userDataDir: C:\Users\SUMITP~2\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60841/devtoo..., se:cdpVersion: 148.0.3967.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 79cce6f4bedab89fab51f0f9c0e37f41
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:424)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:418)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy31.getWrappedElement(Unknown Source)
+at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:262)
+at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:211)
+at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:74)
+at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:83)
+... 66 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.json.JsonException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casestest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.dap.qa.testcase.CaseCreationTest@4b40f651]" started-at="2026-05-25T17:52:16 IST" name="teardown" finished-at="2026-05-25T17:52:16 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.dap.qa.testcase.CaseCreationTest@4b40f651]" started-at="2026-05-25T17:52:16 IST" name="updateResult" finished-at="2026-05-25T17:52:16 IST" duration-ms="92" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=casestest status=FAILURE method=CaseCreationTest.casestest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.dap.qa.testcase.CaseCreationTest@4b40f651] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResult -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.dap.qa.testcase.CaseCreationTest@4b40f651]" started-at="2026-05-25T17:52:16 IST" name="setUp" finished-at="2026-05-25T17:52:19 IST" duration-ms="2967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="casestest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.dap.qa.testcase.CaseCreationTest@4b40f651]" started-at="2026-05-25T17:52:19 IST" name="casestest" data-provider="CaseData" finished-at="2026-05-25T17:52:38 IST" duration-ms="19085" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HDFC Cloud Migration - Track 2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Track 2.3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CUSTOMERNEXT]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HDFC Bank Limited]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sumit Patil]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Configuration Bug]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Public IP2]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Fail]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=148.0.3967.83)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.19'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [395060398bb99e5a8ee9e47a42435a80, findElement {using=xpath, value=//i[@class='icon-obj9']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.83, fedcm:accounts: true, goog:processID: 125388, ms:edgeOptions: {debuggerAddress: localhost:64926}, msedge: {msedgedriverVersion: 148.0.3967.83 (2db6d3cb8b2d..., userDataDir: C:\Users\SUMITP~2\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64926/devtoo..., se:cdpVersion: 148.0.3967.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 395060398bb99e5a8ee9e47a42435a80]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=148.0.3967.83)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.19'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [395060398bb99e5a8ee9e47a42435a80, findElement {using=xpath, value=//i[@class='icon-obj9']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.83, fedcm:accounts: true, goog:processID: 125388, ms:edgeOptions: {debuggerAddress: localhost:64926}, msedge: {msedgedriverVersion: 148.0.3967.83 (2db6d3cb8b2d..., userDataDir: C:\Users\SUMITP~2\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64926/devtoo..., se:cdpVersion: 148.0.3967.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 395060398bb99e5a8ee9e47a42435a80
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:424)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:418)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy31.toString(Unknown Source)
+at java.base/java.lang.String.valueOf(String.java:4220)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:358)
+at java.base/java.lang.String.valueOf(String.java:4220)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.dap.qa.utils.ActionUtilities.mouseOverAndClick(ActionUtilities.java:45)
+at com.dap.qa.page.CasesPage.summarypage(CasesPage.java:116)
+at com.dap.qa.testcase.CaseCreationTest.casestest(CaseCreationTest.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casestest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.dap.qa.testcase.CaseCreationTest@4b40f651]" started-at="2026-05-25T17:52:38 IST" name="teardown" finished-at="2026-05-25T17:52:38 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.dap.qa.testcase.CaseCreationTest@4b40f651]" started-at="2026-05-25T17:52:38 IST" name="updateResult" finished-at="2026-05-25T17:52:38 IST" duration-ms="93" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=casestest status=FAILURE method=CaseCreationTest.casestest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.dap.qa.testcase.CaseCreationTest@4b40f651] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResult -->
+      </class> <!-- com.dap.qa.testcase.CaseCreationTest -->
+    </test> <!-- Login Page Test -->
+  </suite> <!-- DAP Automation Suite -->
+</testng-results>

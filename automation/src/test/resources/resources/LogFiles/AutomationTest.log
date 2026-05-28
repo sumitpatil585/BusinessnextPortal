@@ -1,0 +1,71 @@
+[DEBUG] 2026-05-25 17:51:28.437 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-05-25 17:51:28.446 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-05-25 17:51:29.230 [main] BaseTest - ========== Test Started ==========
+[INFO ] 2026-05-25 17:51:29.230 [main] BaseTest - Launching browser
+[INFO ] 2026-05-25 17:51:32.774 [main] BaseTest - Microsoft Edge browser Launched Successfully
+[INFO ] 2026-05-25 17:51:33.170 [main] CasesPage - Entering username
+[INFO ] 2026-05-25 17:51:34.966 [main] CasesPage - UserName has been entered successfully
+[INFO ] 2026-05-25 17:51:34.967 [main] CasesPage - Entering password
+[INFO ] 2026-05-25 17:51:35.211 [main] CasesPage - Password has been entered successfully
+[INFO ] 2026-05-25 17:51:35.211 [main] CasesPage - Clicking login button
+[INFO ] 2026-05-25 17:51:37.353 [main] CasesPage - Login Successfull
+[INFO ] 2026-05-25 17:51:54.482 [main] CasesPage - Mousehover successfully on New
+[INFO ] 2026-05-25 17:51:57.715 [main] CasesPage - Successfully clicked on incident
+[INFO ] 2026-05-25 17:51:58.402 [main] CasesPage - Successfully clicked on Project Name Button
+[DEBUG] 2026-05-25 17:52:15.810 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-05-25 17:52:15.815 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-05-25 17:52:15.962 [main] ZipPackage - Save content types part
+[DEBUG] 2026-05-25 17:52:16.073 [main] ZipPackage - Save package relationships
+[DEBUG] 2026-05-25 17:52:16.089 [main] ZipPackage - Save part 'docProps/app.xml'
+[DEBUG] 2026-05-25 17:52:16.090 [main] ZipPackage - Save part 'docProps/core.xml'
+[DEBUG] 2026-05-25 17:52:16.098 [main] ZipPackage - Save part 'xl/sharedStrings.xml'
+[DEBUG] 2026-05-25 17:52:16.099 [main] ZipPackage - Save part 'xl/styles.xml'
+[DEBUG] 2026-05-25 17:52:16.100 [main] ZipPackage - Save part 'xl/theme/theme1.xml'
+[DEBUG] 2026-05-25 17:52:16.101 [main] ZipPackage - Save part 'xl/workbook.xml'
+[DEBUG] 2026-05-25 17:52:16.105 [main] ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+[INFO ] 2026-05-25 17:52:16.116 [main] BaseTest - Closing browser
+[INFO ] 2026-05-25 17:52:16.209 [main] BaseTest - browser Closed Successfully
+[DEBUG] 2026-05-25 17:52:16.222 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-05-25 17:52:16.225 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-05-25 17:52:16.272 [main] ZipPackage - Save content types part
+[DEBUG] 2026-05-25 17:52:16.277 [main] ZipPackage - Save package relationships
+[DEBUG] 2026-05-25 17:52:16.281 [main] ZipPackage - Save part 'docProps/app.xml'
+[DEBUG] 2026-05-25 17:52:16.282 [main] ZipPackage - Save part 'docProps/core.xml'
+[DEBUG] 2026-05-25 17:52:16.286 [main] ZipPackage - Save part 'xl/sharedStrings.xml'
+[DEBUG] 2026-05-25 17:52:16.287 [main] ZipPackage - Save part 'xl/styles.xml'
+[DEBUG] 2026-05-25 17:52:16.290 [main] ZipPackage - Save part 'xl/theme/theme1.xml'
+[DEBUG] 2026-05-25 17:52:16.295 [main] ZipPackage - Save part 'xl/workbook.xml'
+[DEBUG] 2026-05-25 17:52:16.300 [main] ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+[INFO ] 2026-05-25 17:52:16.306 [main] BaseTest - ========== Test Started ==========
+[INFO ] 2026-05-25 17:52:16.307 [main] BaseTest - Launching browser
+[INFO ] 2026-05-25 17:52:18.381 [main] BaseTest - Microsoft Edge browser Launched Successfully
+[INFO ] 2026-05-25 17:52:19.283 [main] CasesPage - Entering username
+[INFO ] 2026-05-25 17:52:19.509 [main] CasesPage - UserName has been entered successfully
+[INFO ] 2026-05-25 17:52:19.509 [main] CasesPage - Entering password
+[INFO ] 2026-05-25 17:52:19.748 [main] CasesPage - Password has been entered successfully
+[INFO ] 2026-05-25 17:52:19.748 [main] CasesPage - Clicking login button
+[INFO ] 2026-05-25 17:52:19.992 [main] CasesPage - Login Successfull
+[DEBUG] 2026-05-25 17:52:38.371 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-05-25 17:52:38.373 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-05-25 17:52:38.398 [main] ZipPackage - Save content types part
+[DEBUG] 2026-05-25 17:52:38.400 [main] ZipPackage - Save package relationships
+[DEBUG] 2026-05-25 17:52:38.402 [main] ZipPackage - Save part 'docProps/app.xml'
+[DEBUG] 2026-05-25 17:52:38.403 [main] ZipPackage - Save part 'docProps/core.xml'
+[DEBUG] 2026-05-25 17:52:38.404 [main] ZipPackage - Save part 'xl/sharedStrings.xml'
+[DEBUG] 2026-05-25 17:52:38.405 [main] ZipPackage - Save part 'xl/styles.xml'
+[DEBUG] 2026-05-25 17:52:38.405 [main] ZipPackage - Save part 'xl/theme/theme1.xml'
+[DEBUG] 2026-05-25 17:52:38.405 [main] ZipPackage - Save part 'xl/workbook.xml'
+[DEBUG] 2026-05-25 17:52:38.407 [main] ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+[INFO ] 2026-05-25 17:52:38.413 [main] BaseTest - Closing browser
+[INFO ] 2026-05-25 17:52:38.538 [main] BaseTest - browser Closed Successfully
+[DEBUG] 2026-05-25 17:52:38.597 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-05-25 17:52:38.597 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-05-25 17:52:38.618 [main] ZipPackage - Save content types part
+[DEBUG] 2026-05-25 17:52:38.620 [main] ZipPackage - Save package relationships
+[DEBUG] 2026-05-25 17:52:38.622 [main] ZipPackage - Save part 'docProps/app.xml'
+[DEBUG] 2026-05-25 17:52:38.622 [main] ZipPackage - Save part 'docProps/core.xml'
+[DEBUG] 2026-05-25 17:52:38.624 [main] ZipPackage - Save part 'xl/sharedStrings.xml'
+[DEBUG] 2026-05-25 17:52:38.624 [main] ZipPackage - Save part 'xl/styles.xml'
+[DEBUG] 2026-05-25 17:52:38.625 [main] ZipPackage - Save part 'xl/theme/theme1.xml'
+[DEBUG] 2026-05-25 17:52:38.625 [main] ZipPackage - Save part 'xl/workbook.xml'
+[DEBUG] 2026-05-25 17:52:38.628 [main] ZipPackage - Save part 'xl/worksheets/sheet1.xml'
